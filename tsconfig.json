@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // if we run `npx webpack`, this param is unused, it's used when we run `npx tsc`
+    "outDir": "./dist",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "strict": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/"
+  ]
+}
